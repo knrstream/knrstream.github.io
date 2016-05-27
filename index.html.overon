@@ -1,0 +1,65 @@
+
+
+
+	<link href="https://vjs.zencdn.net/5.2.4/video-js.css" rel="stylesheet">
+	<!-- If you'd like to support IE8 -->
+	<script src="https://vjs.zencdn.net/ie8/1.1.0/videojs-ie8.min.js"></script>
+	<script src="https://vjs.zencdn.net/5.2.4/video.js"></script> 
+	
+
+	<style type="text/css">
+	     .vjs-default-skin:hover .vjs-big-play-button, .vjs-default-skin .vjs-big-play-button:focus .vjs-big-play-centered {
+			box-shadow: none;
+			border-color:#f60;
+		}
+		.vjs-default-skin .vjs-big-play-button { top: 45% ;  left: 45%;}
+		.vjs-default-skin .vjs-menu-button ul li.vjs-menu-title 
+		  {background:#f60;margin:0;line-height: 2.3em}
+		.vjs-default-skin .vjs-menu-button .vjs-menu .vjs-menu-content 
+		  {box-shadow: none;background-color:#f60;}
+		.vjs-default-skin .vjs-menu {border-top-color:#f60;}
+		.vjs-default-skin .vjs-play-progress,
+		.vjs-default-skin .vjs-volume-level { #f60; }
+		.vjs-default-skin .vjs-control-bar,
+		.vjs-default-skin .vjs-big-play-button { #f60; }
+		.vjs-default-skin .vjs-slider { background: #f60; }
+		.vjs-res-button {float: right;line-height: 3em;}
+		ul li.vjs-menu-title.vjs-res-menu-title:hover {cursor: 
+		  default;background-color: transparent;color: #F60;-moz-box-shadow: 
+		  none;-webkit-box-shadow: none;box-shadow: none;}
+	</style>
+
+
+	
+		<video id="video" class="video-js vjs-default-skin vjs-playing vjs-fullscreen" controls  
+			preload="auto" 
+			width="auto" 
+			height="auto" 
+			autoplay="true"
+			
+			
+				
+					
+				
+				poster="http://resources.wvp.overon.es/Overon/18/6792.gif"
+			
+
+			data-setup="{}" style="background-color:white;">
+			
+				
+				
+				
+				
+				
+				
+					<source src="http://192.168.0.126/live/live-300/playlist.m3u8" type="application/x-mpegurl">
+					
+				
+			
+			<p class="vjs-no-js">
+	      			To view this video please enable JavaScript, and consider upgrading to a web browser that
+				<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+			</p>
+		</video>
+	
+<script src="http://videojs.github.io/videojs-contrib-hls/node_modules/videojs-contrib-hls/dist/videojs.hls.min.js"></script>
